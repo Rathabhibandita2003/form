@@ -72,22 +72,8 @@
   .nav-links ul li:hover::after{
     width: 100%;
   }
-  .text-box{
-    width: 90%;
-    color:rgb(35, 36, 33);
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-44%,-35%);
-    text-align: left;
-  }
-  .text-box h1{
-  font-size: 62px;
-  }
-  .text-box p{
-    margin: 0px 0 0px;
-    font-size: 23px;
-  }
+  
+  
   .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -111,18 +97,6 @@
   }
   
   @media(max-width:700px){
-    .text-box h1{
-        font-size: 20px;
-        padding-top: 2%;
-      }
-      .text-box h2{
-        font-size: 15px;
-       padding-top: 1%;
-        
-      }
-      .text-box p{
-        display: none;
-      }
     
     .nav-links ul li {
       display: block;
@@ -194,12 +168,12 @@
         }
       }
       .contact-us{
-        margin-top: 50%;
+        margin-top: 30%;
         background-position: center;
         background-size: cover ;
         width: 80%;
         margin: auto;
-        padding-top: 40%;
+        padding-top: 30%;
       }
       .contact-col{
         flex-basis: 48%;
@@ -226,11 +200,11 @@
           font-size: 20px;
         }
         .contact-us{
-            margin-top: 70%;
+            margin-top: 20%;
             background-position: center;
             background-size: cover ;
             width: 80%;
             margin: auto;
-            padding-top: 90%;
+            padding-top: 50%;
         }
       }
